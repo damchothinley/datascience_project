@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.cross_validation import train_test_split
 
 # Load data from .csv
-data = pd.read_csv("D:/Data Science/japan-population-data/Japan_population_data.csv", sep=",")
+data = pd.read_csv("Japan_population_data.csv", sep=",")
 
 #data cleaning(i.e, replacing the values = 'NA' with 0)
 data.fillna(0,inplace=True)
